@@ -1,0 +1,50 @@
+/* desert-yellow.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fffde7; /* 浅黄色背景 */
+    color: #f57f17; /* 黄色文字 */
+    margin: 0;
+    padding: 20px;
+}
+
+a {
+    color: #e65100; /* 深黄色链接 */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #bf360c; /* 鼠标悬浮时颜色加深 */
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    color: #f57f17;
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #fff3e0; /* 淡黄色边框 */
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #ff9800; /* 黄色标题背景 */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #fff8e1; /* 偶数行背景色 */
+}
+
+tr:hover {
+    background-color: #fff59d; /* 悬停行背景色 */
+}

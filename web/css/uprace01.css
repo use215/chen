@@ -1,0 +1,64 @@
+/* 全局样式 */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* 表格样式 */
+.table-container {
+    overflow-x: auto; /* 确保表格在小屏幕上水平滚动 */
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 auto; /* 居中表格 */
+}
+
+/* 表格头部样式 */
+th {
+    background-color: #007bff; /* 优雅的蓝色背景 */
+    color: white; /* 白色文字 */
+    border: none; /* 去除边框 */
+    text-align: left;
+    padding: 15px 12px;
+    position: sticky;
+    top: 0; /* 使表头固定在顶部 */
+    z-index: 10;
+}
+
+/* 表格行样式 */
+tr {
+    transition: background-color 0.3s; /* 平滑的背景颜色过渡 */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* 表格数据样式 */
+td {
+    border-bottom: 1px solid #dddddd; /* 仅底部边框 */
+    text-align: left;
+    padding: 12px;
+    transition: background-color 0.3s; /* 平滑的背景颜色过渡 */
+}
+
+/* 鼠标悬停效果 */
+tr:hover {
+    background-color: #e9ecef;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    th, td {
+        padding: 10px 8px;
+    }
+}
